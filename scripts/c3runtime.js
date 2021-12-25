@@ -4399,8 +4399,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.System.Acts.SubVar,
 		C3.Plugins.Text.Acts.SetVisible,
-		C3.Plugins.System.Exps.int,
-		C3.Plugins.System.Exps.random,
 		C3.Plugins.VKBridge.Acts.LeaderSave,
 		C3.Plugins.VKBridge.Acts.LeaderBoardVKUI,
 		C3.Plugins.VKBridge.Cnds.LeaderBoardVKUISuccess,
@@ -4497,8 +4495,6 @@ self.C3_JsPropNameTable = [
 	{LvlRassilka: 0},
 	{AllProsmotrs: 0},
 	{Subscribe: 0},
-	{RandomReklama: 0},
-	{Client: 0},
 	{ColInLB: 0}
 ];
 }
@@ -4737,13 +4733,6 @@ self.C3_ExpressionFuncs = [
 		() => "2000",
 		() => "10000",
 		() => "50000",
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			const f1 = p._GetNode(1).GetBoundMethod();
-			return () => f0(f1(0, 3));
-		},
-		() => "ios",
-		() => "android",
 		() => "i",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
