@@ -4400,9 +4400,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SubVar,
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.VKBridge.Acts.LeaderSave,
-		C3.Plugins.VKBridge.Acts.LeaderBoardVKUI,
-		C3.Plugins.VKBridge.Cnds.LeaderSaveSuccess,
-		C3.Plugins.VKBridge.Cnds.LeaderSaveFailed
+		C3.Plugins.VKBridge.Acts.LeaderBoardVKUI
 	];
 };
 self.C3_JsPropNameTable = [
